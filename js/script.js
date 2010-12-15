@@ -30,5 +30,4 @@ $(window).resize(resizeElements);
 var updateFrames = function() {
 	$('#frame1_img').attr('src', $('#frame1_img').attr('src').substr( 0, $('#frame1_img').attr('src').indexOf('?') ) +'?'+Math.random());
 	$('#frame2_img').attr('src', $('#frame2_img').attr('src').substr( 0, $('#frame2_img').attr('src').indexOf('?') ) +'?'+Math.random());
-	updateTimer = setTimeout(updateFrames,frameDelay);
 };

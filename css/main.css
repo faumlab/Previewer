@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+.clear { clear: both; }
+
+#frames_container div {
+	float:left;
+}
